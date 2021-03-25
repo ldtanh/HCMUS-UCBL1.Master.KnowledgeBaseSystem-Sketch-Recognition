@@ -1,0 +1,9 @@
+D:\Project\ImageGenerateEngine\IGE.Model\bin\Debug\netstandard2.0\IGE.Model.deps.json
+D:\Project\ImageGenerateEngine\IGE.Model\bin\Debug\netstandard2.0\IGE.Model.dll
+D:\Project\ImageGenerateEngine\IGE.Model\bin\Debug\netstandard2.0\IGE.Model.pdb
+D:\Project\ImageGenerateEngine\IGE.Model\obj\Debug\netstandard2.0\IGE.Model.csprojAssemblyReference.cache
+D:\Project\ImageGenerateEngine\IGE.Model\obj\Debug\netstandard2.0\IGE.Model.AssemblyInfoInputs.cache
+D:\Project\ImageGenerateEngine\IGE.Model\obj\Debug\netstandard2.0\IGE.Model.AssemblyInfo.cs
+D:\Project\ImageGenerateEngine\IGE.Model\obj\Debug\netstandard2.0\IGE.Model.csproj.CoreCompileInputs.cache
+D:\Project\ImageGenerateEngine\IGE.Model\obj\Debug\netstandard2.0\IGE.Model.dll
+D:\Project\ImageGenerateEngine\IGE.Model\obj\Debug\netstandard2.0\IGE.Model.pdb
