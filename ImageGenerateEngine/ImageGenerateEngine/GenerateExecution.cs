@@ -25,11 +25,10 @@ namespace ImageGenerateEngine
 				}
 				totalFilesList.OrderBy(model => model);
 				List<IEnumerable<string>> listOfLists = new List<IEnumerable<string>>();
-				for (int i = 0; i < totalFilesList.Count(); i += 1)
+				for (int i = 0; i < totalFilesList.Count(); i += 20)
 				{
-					listOfLists.Add(totalFilesList.Skip(i).Take(5));
+					listOfLists.Add(totalFilesList.Skip(i).Take(20));
 				}
-				var a = listOfLists;
 				Parallel.ForEach(listOfLists, obj =>
 				{
 					foreach (var item in obj)
