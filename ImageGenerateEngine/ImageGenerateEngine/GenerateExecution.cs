@@ -16,6 +16,7 @@ namespace ImageGenerateEngine
 			{
 				CheckForStructure();
 				GenerateEngine.CreateDirectory(Config.Default.GenerateRoot);
+				Console.WriteLine(Config.Default.RotationAngleIncrement);
 				List<string> totalFilesList = new List<string>();
 				string[] subdirectoryEntries = Directory.GetDirectories(Config.Default.Root);
 				foreach (var dir in subdirectoryEntries)

@@ -33,14 +33,7 @@ namespace ImageGenerateEngine
 					}
 
 					//write image
-					if (i < 2)
-					{
-						prototypeImg.Save(imagePath.Replace(Config.Default.Root, Config.Default.GenerateRoot).Replace(".png", "") + "\\" + i + "_degree", System.Drawing.Imaging.ImageFormat.Png);
-					}
-					else
-					{
-						prototypeImg.Save(imagePath.Replace(Config.Default.Root, Config.Default.GenerateRoot).Replace(".png", "") + "\\" + i + "_degrees");
-					}
+					prototypeImg.Save(imagePath.Replace(Config.Default.Root, Config.Default.GenerateRoot).Replace(".png", "") + "\\" + i + "_degrees.png");
 					prototypeImg.Dispose();
 				}
 			}

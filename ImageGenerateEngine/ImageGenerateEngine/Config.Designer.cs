@@ -12,7 +12,7 @@ namespace ImageGenerateEngine {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.7.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.8.1.0")]
     internal sealed partial class Config : global::System.Configuration.ApplicationSettingsBase {
         
         private static Config defaultInstance = ((Config)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Config())));
@@ -25,7 +25,7 @@ namespace ImageGenerateEngine {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("D:\\Image\\PNG")]
+        [global::System.Configuration.DefaultSettingValueAttribute("D:\\kb\\data")]
         public string Root {
             get {
                 return ((string)(this["Root"]));
@@ -34,7 +34,7 @@ namespace ImageGenerateEngine {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("D:\\Image\\Generate")]
+        [global::System.Configuration.DefaultSettingValueAttribute("D:\\kb\\data_10_rotate")]
         public string GenerateRoot {
             get {
                 return ((string)(this["GenerateRoot"]));
@@ -43,7 +43,7 @@ namespace ImageGenerateEngine {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("30")]
+        [global::System.Configuration.DefaultSettingValueAttribute("10")]
         public int RotationAngleIncrement {
             get {
                 return ((int)(this["RotationAngleIncrement"]));
