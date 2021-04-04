@@ -3,13 +3,13 @@
   <Profiles />
   <Settings>
     <Setting Name="Root" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">D:\kb\data</Value>
+      <Value Profile="(Default)">D:\kb\test_data</Value>
     </Setting>
     <Setting Name="GenerateRoot" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">D:\kb\data_10_rotate</Value>
+      <Value Profile="(Default)">D:\kb\data_0_rotate</Value>
     </Setting>
     <Setting Name="RotationAngleIncrement" Type="System.Int32" Scope="Application">
-      <Value Profile="(Default)">10</Value>
+      <Value Profile="(Default)">0</Value>
     </Setting>
   </Settings>
 </SettingsFile>

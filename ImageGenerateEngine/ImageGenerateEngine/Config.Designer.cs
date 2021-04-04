@@ -25,7 +25,7 @@ namespace ImageGenerateEngine {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("D:\\kb\\data")]
+        [global::System.Configuration.DefaultSettingValueAttribute("D:\\kb\\test_data")]
         public string Root {
             get {
                 return ((string)(this["Root"]));
@@ -34,7 +34,7 @@ namespace ImageGenerateEngine {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("D:\\kb\\data_10_rotate")]
+        [global::System.Configuration.DefaultSettingValueAttribute("D:\\kb\\data_0_rotate")]
         public string GenerateRoot {
             get {
                 return ((string)(this["GenerateRoot"]));
@@ -43,7 +43,7 @@ namespace ImageGenerateEngine {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("10")]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
         public int RotationAngleIncrement {
             get {
                 return ((int)(this["RotationAngleIncrement"]));
